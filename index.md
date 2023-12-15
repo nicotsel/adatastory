@@ -4,7 +4,7 @@ title: Maslow's Redefinition
 subtitle: A Virus Challenging a Staple of Psychology
 
 ---
-[Maslow_pyramid][assets/img/maslow.jpg]
+![Maslow_pyramid][assets/img/maslow.jpg]
 
 Maslow's Hierarchy of Needs serves as a model for assessing human behavior, offering insights into the profound shifts witnessed during the pandemic. From altered relationship dynamics to revised safety measures and changing professional priorities, our needs underwent a transformative evolution.
 
