@@ -2,6 +2,4 @@
 layout: home
 title: Maslow's Redefinition
 subtitle: A Virus Challenging a Staple of Psychology
-
-Good morly
 ---
