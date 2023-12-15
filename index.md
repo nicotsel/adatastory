@@ -14,4 +14,6 @@ Our research only encompasses EU countries. By examining the intricacies of the 
 The ultimate goal is to redefine this sacred hierarchy in order for it to resonate with the reality that was the life during the pandemic
 
 This behavioral study bases itself on web-browsing data such as Wikipedia page views and Google trends, transportation and mobility data provided by Google and Apple, and EU-centric unemployment data.
-# Basic Analysis
+
+# Categorization task
+While Mobility and Unemployment Data directly point us to the lower-two levels of the pyramid, Physiological Needs and Safety, exctracting data for the upper three levels is a bit more intricate: Wikipedia pages and topics are not intuitively classified into Esteem, Love and Affection and Self-Actualization, this needed to be done in order to complete the study.
