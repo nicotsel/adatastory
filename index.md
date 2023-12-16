@@ -22,7 +22,7 @@ While Mobility and Unemployment Data directly point us to the lower-two levels o
 ## Physiological Needs
 
 ## Safety
-
+EU Unemployment Data revealed a few things about how financial safety's place evolved during the pandemic.
 ## Love and Belonging
 
 ## Esteeem
