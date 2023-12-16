@@ -23,6 +23,8 @@ While Mobility and Unemployment Data directly point us to the lower-two levels o
 
 ## Safety
 EU Unemployment Data revealed a few things about how financial safety's place evolved during the pandemic.
+![Test_g](assets/test.html)
+
 ## Love and Belonging
 
 ## Esteeem
