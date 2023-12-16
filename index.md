@@ -22,7 +22,7 @@ While Mobility and Unemployment Data directly point us to the lower-two levels o
 ## Physiological Needs
 
 ## Safety
-EU Unemployment Data revealed a few things about how financial safety's place evolved during the pandemic.
+EU Unemployment Data revealed a few things about how financial safety's place evolved during the pandemic. Preliminary studies show how the inactive European population was distributed amongst different groups: the number of inactive male individuals grew after lockdown, so did the number of unemployed 'young' people (under the age of 25).
 {% include assests/test.html %}
 ## Love and Belonging
 
