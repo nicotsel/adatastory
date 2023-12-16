@@ -17,6 +17,7 @@ This behavioral study bases itself on web-browsing data such as Wikipedia page v
 
 # Categorization task
 While Mobility and Unemployment Data directly point us to the lower-two levels of the pyramid, Physiological Needs and Safety, exctracting data for the upper three levels is a bit more intricate: Wikipedia pages and topics are not intuitively classified into Esteem, Love and Affection and Self-Actualization, this needed to be done in order to complete the study.
+{%include assets/test.html%}
 
 # The secrets of the Pyramid
 ## Physiological Needs
