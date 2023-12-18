@@ -46,7 +46,7 @@ Using least squares over this data to estimate the coefficients of unemployment 
 
 
 This analysis shows that some countries, like Iceland, had a thriving employment situation during lockdown whilst other countries, such as Spain, were struggling with employment levels.
-This analysis has one main fallacy: it does not take seasonality into account. A fallacy that ***Difference in Differences** solves.
+However, it has one main fallacy: it does not take seasonality into account. A fallacy that ***Difference in Differences** solves.
 
 ## Love and Belonging
 
