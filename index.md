@@ -34,11 +34,11 @@ EU Unemployment Data revealed a few things about how financial safety's place ev
 Given these results, the next natural step is to generalize to an EU-wide scale, to understand how relevant safety needs related to employment were during covid times, and the answers lie in time-series of unemployment rates across EU countries. Naively, plotting, regressing over the data and extracting coefficients should provide the key elements to infer the evolution of safety needs. 
 
 #### Time-Series of Unemployment Rates per European Country
-![C_1](assets/img/coutnry_1.png)
-![C_2](assets/img/coutnry_2.png)
-![C_3](assets/img/coutnry_3.png)
-![C_4](assets/img/coutnry_4.png)
-![C_5](assets/img/coutnry_5.png)
+![C_1](assets/img/country_1.png)
+![C_2](assets/img/country_2.png)
+![C_3](assets/img/country_3.png)
+![C_4](assets/img/country_4.png)
+![C_5](assets/img/country_5.png)
 
 
 
