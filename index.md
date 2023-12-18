@@ -30,7 +30,7 @@ EU Unemployment Data revealed a few things about how financial safety's place ev
 ![Unemployment_age](assets/img/un_age.png)
 ![Unemployment_sex](assets/img/un_sex.png)
 
-
+Given these results, the next natural step is to generalize to an EU-wide scale, to understand how relevant safety needs related to employment were during covid times, and the answers lie in time-series of unemployment rates across EU countries. Naively, plotting, regressing over the data and extracting coefficients should provide the key elements to infer the evolution of safety needs. 
 
 
 ## Love and Belonging
