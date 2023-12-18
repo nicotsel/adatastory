@@ -15,15 +15,17 @@ The ultimate goal is to redefine this sacred hierarchy in order for it to resona
 
 This behavioral study bases itself on web-browsing data such as Wikipedia page views and Google trends, transportation and mobility data provided by Google and Apple, and EU-centric unemployment data.
 
-# Categorization task
+# **Methods**
+## Categorization task
 While Mobility and Unemployment Data directly point us to the lower-two levels of the pyramid, Physiological Needs and Safety, exctracting data for the upper three levels is a bit more intricate: Wikipedia pages and topics are not intuitively classified into Esteem, Love and Affection and Self-Actualization, this needed to be done in order to complete the study.
 
+## Difference in Differences
 
 # The secrets of the Pyramid
 ## Physiological Needs
 
 ## Safety
-EU Unemployment Data revealed a few things about how financial safety's place evolved during the pandemic. Preliminary studies show how the inactive European population was distributed amongst different groups: the number of inactive male individuals grew after lockdown, so did the number of unemployed 'young' people (under the age of 25).
+EU Unemployment Data revealed a few things about how financial safety's place evolved during the pandemic. Preliminary studies on the overall number of inactive people show how the inactive European population was distributed amongst different groups: the number of inactive men  grew after the lockdown with respect to women, as did the number of unemployed 'young' people (under 25) with respect to 'older ' people (between the ages of 25 and 74).
 
 ## Love and Belonging
 
