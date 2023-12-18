@@ -27,6 +27,12 @@ While Mobility and Unemployment Data directly point us to the lower-two levels o
 ## Safety
 EU Unemployment Data revealed a few things about how financial safety's place evolved during the pandemic. Preliminary studies on the overall number of inactive people show how the inactive European population was distributed amongst different groups: the number of inactive men  grew after the lockdown with respect to women, as did the number of unemployed 'young' people (under 25) with respect to 'older ' people (between the ages of 25 and 74).
 
+![Unemployment_age](assets/img/un_age.png)
+![Unemployment_sex](assets/img/un_sex.png)
+
+
+
+
 ## Love and Belonging
 
 ## Esteeem
