@@ -40,6 +40,7 @@ Given these results, the next natural step is to generalize to an EU-wide scale,
 ![C_4](assets/img/country_4.png)
 ![C_5](assets/img/country_5.png)
 
+Using least squares over this data to estimate the coefficients of unemployment rate change that the lockdown-country interaction brings yield the following results:
 
 
 ## Love and Belonging
