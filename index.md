@@ -54,15 +54,30 @@ When it comes to the top three levels of Maslow's Hierarchy, the analysis will b
 
 ![Love_C](assets/img/love_countries.png)
 
-In the plot above above, we see the evolution, on average, of the relative percentage change from the baseline of multiple topics related to Love & Belonging, for six different countries within europe. This allows us to evaluate how the general interest in Love & Belonging topics has evolved during this period.
+In the plot above, we see the evolution, on average, of the relative percentage change from the baseline of multiple topics related to Love & Belonging, for six different countries within europe. This allows us to evaluate how the general interest in Love & Belonging topics has evolved during this period.
 
 We can see that they're seems to be a shift upwards in the interest of these topics straight after the first Covid-19 death and the date on which the first lockdown measures were implemented. Which would seem to suggest that the interest in Love & Belonging Topics has increased during Cocid-19 in Europe.
 
+![Love_C](assets/img/love_countries.png)
 ![Love_A](assets/img/love_avg.png)
 
-In the graph above, this shhift upwards is a lot more evident. In order to have a more conclusive analysis, we will be employing a differences in differences approach.
+In the graph above, this shift upwards is a lot more evident. In order to have a more conclusive analysis, we will be employing a differences in differences approach.
 
 
 ## Esteeem
 
+The same principle is used for Esteem Topics : 
+
+![Esteem_C](assets/img/esteem_countries.png)
+![Esteem_A](assets/img/esteem_countries.png)
+
+Again, looking at the above plots, we see that this trend upwards, straight after the first Covid death and the first lockdown, is very evident, especially in the second graph when we average out the data together. 
+
+
 ## Self-Actualizaion
+
+Finally, we will look at the data representing Self-Actualization :
+
+![Self_C](assets/img/self_countries.png)
+![Self_A](assets/img/self_avg.png)
+
