@@ -58,7 +58,6 @@ In the plot above, we see the evolution, on average, of the relative percentage 
 
 We can see that they're seems to be a shift upwards in the interest of these topics straight after the first Covid-19 death and the date on which the first lockdown measures were implemented. Which would seem to suggest that the interest in Love & Belonging Topics has increased during Cocid-19 in Europe.
 
-![Love_C](assets/img/love_countries.png)
 ![Love_A](assets/img/love_avg.png)
 
 In the graph above, this shift upwards is a lot more evident. In order to have a more conclusive analysis, we will be employing a differences in differences approach.
