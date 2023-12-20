@@ -50,6 +50,19 @@ However, it has one main fallacy: it does not take seasonality into account. A f
 
 ## Love and Belonging
 
+When it comes to the top three levels of Maslow's Hierarchy, the analysis will be based on wikipedia pageviews, collected on a monthly basis between 2019-01 and 2020-08 : a period that allows us to capture the impact of different Covid-19 measures, such as lockdowns.
+
+![Love_C](assets/img/love_countries.png)
+
+In the plot above above, we see the evolution, on average, of the relative percentage change from the baseline of multiple topics related to Love & Belonging, for six different countries within europe. This allows us to evaluate how the general interest in Love & Belonging topics has evolved during this period.
+
+We can see that they're seems to be a shift upwards in the interest of these topics straight after the first Covid-19 death and the date on which the first lockdown measures were implemented. Which would seem to suggest that the interest in Love & Belonging Topics has increased during Cocid-19 in Europe.
+
+![Love_A](assets/img/love_avg.png)
+
+In the graph above, this shhift upwards is a lot more evident. In order to have a more conclusive analysis, we will be employing a differences in differences approach.
+
+
 ## Esteeem
 
 ## Self-Actualizaion
