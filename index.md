@@ -87,7 +87,7 @@ Finally, we will look at the data representing Self-Actualization :
 
 <!-- Plotly Graph -->
 <div id="plotly-graph">
-    <!-- Paste the Plotly div string here -->
+    <!-- The Plotly Graph's HTML -->
     <div>                        <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
         <script type="text/javascript">/**
 * plotly.js v2.27.0
@@ -109,6 +109,3 @@ Finally, we will look at the data representing Self-Actualization :
         });
     });
 </script>
-
-
-
