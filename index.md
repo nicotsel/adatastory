@@ -31,7 +31,7 @@ EU Unemployment Data revealed a few things about how financial safety's place ev
 ![Unemployment_age](assets/img/un_age.png)
 ![Unemployment_sex](assets/img/un_sex.png)
 
-Given these results, the next natural step is to generalize to an EU-wide scale, to understand how relevant safety needs related to employment were during covid times, and the answers lie in time-series of unemployment rates across EU countries. Naively, plotting, regressing over the data and extracting coefficients should provide the key elements to infer the evolution of safety needs. 
+Given these results, the next natural step is to generalize to an EU-wide scale, to understand how relevant safety needs related to employment were during covid times, and the answers lie in the time-series of unemployment rates across EU countries. Naively, plotting, regressing over the data and extracting coefficients should provide the key elements to infer the evolution of safety needs.  For the remainder of this analysis, march 2020 is considered as the lockdown starting point. Identifying data as pre and post lockdown allows us to conduct the study on unemployment data.
 
 #### Time-Series of Unemployment Rates per European Country
 ![C_1](assets/img/country_1.png)
@@ -46,7 +46,7 @@ Using least squares over this data to estimate the coefficients of unemployment 
 
 
 This analysis shows that some countries, like Iceland, had a thriving employment situation during lockdown whilst other countries, such as Spain, were struggling with employment levels.
-However, it has one main fallacy: it does not take seasonality into account. A fallacy that ***Difference in Differences** solves.
+However, it has one main fallacy: it does not take seasonality into account. A fallacy that **Difference in Differences** solves.
 
 ## Love and Belonging
 
