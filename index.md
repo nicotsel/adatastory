@@ -73,7 +73,7 @@ The same principle is used for Esteem Topics :
 Again, looking at the above plots, we see that this trend upwards, straight after the first Covid death and the first lockdown, is very evident, especially in the second graph when we average out the data together. 
 
 
-## Self-Actualizaion
+## Self-Actualizaio
 
 Finally, we will look at the data representing Self-Actualization :
 
