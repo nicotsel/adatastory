@@ -69,7 +69,7 @@ In the graph above, this shift upwards is a lot more evident. In order to have a
 The same principle is used for Esteem Topics : 
 
 ![Esteem_C](assets/img/esteem_countries.png)
-![Esteem_A](assets/img/esteem_countries.png)
+![Esteem_A](assets/img/esteem_avg.png)
 
 Again, looking at the above plots, we see that this trend upwards, straight after the first Covid death and the first lockdown, is very evident, especially in the second graph when we average out the data together. 
 
