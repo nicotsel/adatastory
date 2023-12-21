@@ -81,6 +81,10 @@ Finally, we will look at the data representing Self-Actualization :
 ![Self_A](assets/img/self_avg.png)
 
 
-## Test Plots using plotly e 
+## Test Plots using plotly 
 
 <iframe src="eu_map.html" width="100%" height="600" style="border:none;"></iframe>
+
+## Test progress bars animatio
+
+<iframe src="progress_bars.html" width="100%" height="100%" style="border:none;"></iframe>

@@ -1,42 +1,42 @@
 
 <!-- Progress Bars -->
 <div class="progress-container" style="margin-bottom: 10px;">
-    <div class="progress-bar" id="myBar1" style="width: 1%; height: 15px; background-color: #4CAF50; border-radius: 50px;"></div>
+  <div class="progress-bar" id="myBar1" style="width: 1%; height: 15px; background-color: #4CAF50; border-radius: 50px;"></div>
 </div>
 <div class="progress-container">
-    <div class="progress-bar" id="myBar2" style="width: 1%; height: 15px; background-color: #2196F3; border-radius: 50px;"></div>
+  <div class="progress-bar" id="myBar2" style="width: 1%; height: 15px; background-color: #2196F3; border-radius: 50px;"></div>
 </div>
 
 <!-- Inline CSS -->
 <style>
 .progress-container {
-  width: 100%;
-  background-color: #ddd;
-  border-radius: 50px; /* Curvature on the container */
-  margin-bottom: 50px; /* Space between bars */
+width: 100%;
+background-color: #ddd;
+border-radius: 50px; /* Curvature on the container */
+margin-bottom: 50px; /* Space between bars */
 }
 </style>
 
 <!-- JavaScript -->
 <script>
-function move() {
-  var elem1 = document.getElementById("myBar1");
-  var elem2 = document.getElementById("myBar2");
-  var width1 = 1;
-  var width2 = 1;
-  var id1 = setInterval(frame1, 50);
-  var id2 = setInterval(frame2, 50);
+function move(perc1, perc2) {
+var elem1 = document.getElementById("myBar1");
+var elem2 = document.getElementById("myBar2");
+var width1 = 1;
+var width2 = 1;
+var id1 = setInterval(frame1, 50);
+var id2 = setInterval(frame2, 50);
 
-  function frame1() {
-    if (width1 >= 69) {
-      clearInterval(id);
-    } else {
-      width1++; 
-      elem1.style.width = width1 + '%';
-    }
-    }
+function frame1() {
+  if (width1 >=perc1) {
+    clearInterval(id);
+  } else {
+    width1++; 
+    elem1.style.width = width1 + '%';
+  }
+  }
   function frame2() {
-    if (width2 >= 100) {
+    if (width2 >= perc2) {
       clearInterval(id);
     } else {
       width2++; 
@@ -46,6 +46,7 @@ function move() {
   
 }
 
+
 // Start the animation
-move();
+move(69, 100);
 </script>
