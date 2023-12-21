@@ -85,6 +85,6 @@ Finally, we will look at the data representing Self-Actualization :
 
 <iframe src="eu_map.html" width="100%" height="600" style="border:none;"></iframe>
 
-## Test progress bars animatio
+## Test progress bars animation
 
-<iframe src="progress-bars.html" width="100%" height="100%" style="border:none;"></iframe>
+<iframe src="progress_bars.html" width="100%" height="100%" style="border:none;"></iframe>
