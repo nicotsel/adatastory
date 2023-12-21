@@ -61,7 +61,7 @@ function move(perc1, perc2) {
     }
     }
   function frame2() {
-    if (width2 >= perc2) {
+    if (width2 >= ) {
       clearInterval(id);
     } else {
       width2++; 
@@ -71,26 +71,33 @@ function move(perc1, perc2) {
   
 }
 
-function attachClickEvent() {
-        var plotElement = document.getElementsByClassName('plotly-graph-div')[0];
-        if (plotElement) {
-            plotElement.on('plotly_click', function(data){
-                var point = data.points[0];
-                if(point) {
-                    var countryName = point.location; // Adjust as needed
-                    document.getElementById('country-name-display').innerText = 'Clicked Country: ' + countryName;
+</script>
+    <script type="text/javascript">
+        function attachClickEvent() {
+            var plotElement = document.getElementsByClassName('plotly-graph-div')[0];
+            console.log('Attaching event to:', plotElement); // Log the plot element
 
-                    // Example: Call move function with dummy data
-                    // Replace this with actual data retrieval logic
-                    move(69, 50); // Call move with percentages for the clicked country
-                }
-            });
-        } else {
-            setTimeout(attachClickEvent, 500);
+            if (plotElement) {
+                plotElement.on('plotly_click', function(data){
+                    console.log('Click event data:', data); // Log click event data
+
+                    var point = data.points[0];
+                    if(point) {
+                        console.log('Clicked point:', point); // Log clicked point details
+                        move(69, 100);
+
+                        var countryName = point.location; // Adjust as needed
+                        console.log('Clicked country name:', countryName); // Log clicked country name
+
+                        document.getElementById('country-name-display').innerText = 'Clicked Country: ' + countryName;
+                    }
+                });
+            } else {
+                console.log('Plot element not found, retrying...'); // Log retry message
+                setTimeout(attachClickEvent, 500);
+            }
         }
-    }
-
-    attachClickEvent();
+        attachClickEvent();
     </script>
 </body>
 </html>
