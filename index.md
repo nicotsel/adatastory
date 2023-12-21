@@ -89,10 +89,10 @@ Finally, we will look at the data representing Self-Actualization :
 
 <!-- Progress Bars -->
 <div class="progress-container" style="margin-bottom: 10px;">
-    <div class="progress-bar" id="myBar1" style="width: 1%; height: 30px; background-color: #4CAF50; border-radius: 5px;"></div>
+    <div class="progress-bar" id="myBar1" style="width: 1%; height: 30px; background-color: #4CAF50; border-radius: 50px;"></div>
 </div>
 <div class="progress-container">
-    <div class="progress-bar" id="myBar2" style="width: 1%; height: 30px; background-color: #2196F3; border-radius: 5px;"></div>
+    <div class="progress-bar" id="myBar2" style="width: 1%; height: 30px; background-color: #2196F3; border-radius: 50px;"></div>
 </div>
 
 <!-- Inline CSS -->
@@ -100,8 +100,8 @@ Finally, we will look at the data representing Self-Actualization :
 .progress-container {
   width: 100%;
   background-color: #ddd;
-  border-radius: 5px; /* Curvature on the container */
-  margin-bottom: 20px; /* Space between bars */
+  border-radius: 50px; /* Curvature on the container */
+  margin-bottom: 50px; /* Space between bars */
 }
 </style>
 
