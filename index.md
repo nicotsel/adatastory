@@ -121,8 +121,8 @@ function move() {
       width1++; 
       elem1.style.width = width1 + '%';
     }
-
-    function frame1() {
+    }
+  function frame1() {
     if (width2 >= 100) {
       clearInterval(id);
     } else {
@@ -130,7 +130,7 @@ function move() {
       elem2.style.width = width2 + '%'; 
     }
     }
-  }
+  
 }
 
 // Start the animation
