@@ -89,10 +89,10 @@ Finally, we will look at the data representing Self-Actualization :
 
 <!-- Progress Bars -->
 <div class="progress-container" style="margin-bottom: 10px;">
-    <div class="progress-bar" id="myBar1" style="width: 1%; height: 30px; background-color: #4CAF50; border-radius: 50px;"></div>
+    <div class="progress-bar" id="myBar1" style="width: 1%; height: 15px; background-color: #4CAF50; border-radius: 50px;"></div>
 </div>
 <div class="progress-container">
-    <div class="progress-bar" id="myBar2" style="width: 1%; height: 30px; background-color: #2196F3; border-radius: 50px;"></div>
+    <div class="progress-bar" id="myBar2" style="width: 1%; height: 15px; background-color: #2196F3; border-radius: 50px;"></div>
 </div>
 
 <!-- Inline CSS -->
@@ -110,16 +110,25 @@ Finally, we will look at the data representing Self-Actualization :
 function move() {
   var elem1 = document.getElementById("myBar1");
   var elem2 = document.getElementById("myBar2");
-  var width = 1;
-  var id = setInterval(frame, 20);
+  var width1 = 1;
+  var width2 = 1;
+  var id = setInterval(frame, 50);
 
   function frame() {
-    if (width >= 100) {
+    if (width1 >= 69) {
       clearInterval(id);
     } else {
-      width++; 
-      elem1.style.width = width + '%';
-      elem2.style.width = width + '%'; 
+      width1++; 
+      elem1.style.width = width1 + '%';
+    }
+
+    function frame1() {
+    if (width2 >= 100) {
+      clearInterval(id);
+    } else {
+      width2++; 
+      elem2.style.width = width2 + '%'; 
+    }
     }
   }
 }
