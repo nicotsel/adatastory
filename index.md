@@ -85,11 +85,7 @@ Finally, we will look at the data representing Self-Actualization :
 
 <iframe src="eu_map.html" width="100%" height="600" style="border:none;"></iframe>
 
-## Test bars animation
-
-# My Page Title
-
-## Animated Progress Bars
+## Test progress bars animation
 
 <!-- Progress Bars -->
 <div class="progress-container">
@@ -104,6 +100,8 @@ Finally, we will look at the data representing Self-Actualization :
 .progress-container {
   width: 100%;
   background-color: #ddd;
+  border-radius: 5px; /* Curvature on the container */
+  margin-bottom: 20px; /* Space between bars */
 }
 </style>
 
