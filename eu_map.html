@@ -106,7 +106,8 @@
         plotElement.on('plotly_click', function(data){
             var point = data.points[0];
             if (point) {
-                var countryCode = point.location; // ISO Alpha-3 code
+                var countryName = point.location; // Adjust as needed
+                document.getElementById('country-name-display').innerText = 'Clicked Country: ' + countryName;
                 console.log('Clicked country code:', countryCode);
 
                 var dataForCountry = countryData[countryCode];
