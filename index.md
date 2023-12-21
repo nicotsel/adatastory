@@ -20,6 +20,9 @@ This behavioral study bases itself on web-browsing data such as Wikipedia page v
 While Mobility and Unemployment Data directly point us to the lower-two levels of the pyramid, Physiological Needs and Safety, exctracting data for the upper three levels is a bit more intricate: Wikipedia pages and topics are not intuitively classified into Esteem, Love and Affection and Self-Actualization, this needed to be done in order to complete the study.
 
 ## Difference in Differences
+Difference in Differences (DiD) analysis is a powerful tool that can be used to determine the effect of a single event on a certain group. It enables us to remove other underlying factors that could induce us into error when observing the evolution of our data. DiD helps us quantify the effect of covid on our different need subcategories of Maslow's hierarchy. Using this tool enables us to observe which categories saw the biggest increases/decreases.
+
+
 
 # The secrets of the Pyramid
 ## Physiological Needs
