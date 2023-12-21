@@ -23,14 +23,6 @@ While Mobility and Unemployment Data directly point us to the lower-two levels o
 
 # The secrets of the Pyramid
 ## Physiological Needs
-Our assessment of Physiological Needs drew primarily from the Global Mobility Report and Google Trends. These needs encompass essentials like food, water, and fundamental health requirements, such as medicine, supplements, or vitamins. Typically, these items are procured from grocery stores or pharmacies. Given that these establishments were considered essential businesses during the pandemic, people continued to have access to them. To gauge the shift in physiological needs during the challenging times of the pandemic, we will examine how the frequency of visits to these critical businesses changed, as indicated by mobility data. Additionally, we'll look at Google Trends data for 'Grocery Store' and 'Pharmacy' searches to corroborate or challenge our initial findings.
-
-![Mobility_Physiological](assets/img/Mobility_Phys.png)
-By comparing the percent change in visits to grocery stores and pharmacies with the average percent change across all types of locations, we can infer their relative significance during the pandemic. A positive differential implies that grocery stores and pharmacies experienced a lesser decline—or even an uptick—in visits compared to the general trend in mobility. Conversely, a negative differential indicates that these venues saw a steeper decline in visits than the average. Observing either a positive or no significant difference overall, it is reasonable to conclude that the fulfillment of physiological needs, as represented by grocery stores and pharmacies, maintained or increased their importance during the COVID-19 period.
-
-![DID_Physiological](assets/img/DID_Phys.png)
-The bar chart indicates that based on Google Trends data, there was generally a smaller reduction—or in some cases, an increase—in the public's interest in grocery stores and pharmacies compared to shopping malls during the pandemic. This suggests that essential needs, such as those for food and healthcare, maintained a consistent level of importance as reflected by online search behaviors.
-
 
 ## Safety
 EU Unemployment Data revealed a few things about how financial safety's place evolved during the pandemic. Preliminary studies on the overall number of inactive people show how the inactive European population was distributed amongst different groups: the number of inactive men  grew after the lockdown with respect to women, as did the number of unemployed 'young' people (under 25) with respect to 'older ' people (between the ages of 25 and 74). The pie charts help us visualize the results: labels Y_LT25 and Y25-74 respectively represent the younger and older population, as for the M and F labels, they represent male and female individuals. 
@@ -88,10 +80,6 @@ Finally, we will look at the data representing Self-Actualization :
 ![Self_C](assets/img/self_countries.png)
 ![Self_A](assets/img/self_avg.png)
 
-
-## Show plot
-
-<iframe src="bar_plot.html" width="100%" height="600" style="border:none;"></iframe>
 
 ## Test Plots using plotly & Progress bars
 
