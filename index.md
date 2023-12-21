@@ -85,55 +85,6 @@ Finally, we will look at the data representing Self-Actualization :
 
 <iframe src="eu_map.html" width="100%" height="600" style="border:none;"></iframe>
 
-## Test progress bars animation
+## Test progress bars animatio
 
-<!-- Progress Bars -->
-<div class="progress-container" style="margin-bottom: 10px;">
-    <div class="progress-bar" id="myBar1" style="width: 1%; height: 15px; background-color: #4CAF50; border-radius: 50px;"></div>
-</div>
-<div class="progress-container">
-    <div class="progress-bar" id="myBar2" style="width: 1%; height: 15px; background-color: #2196F3; border-radius: 50px;"></div>
-</div>
-
-<!-- Inline CSS -->
-<style>
-.progress-container {
-  width: 100%;
-  background-color: #ddd;
-  border-radius: 50px; /* Curvature on the container */
-  margin-bottom: 50px; /* Space between bars */
-}
-</style>
-
-<!-- JavaScript -->
-<script>
-function move() {
-  var elem1 = document.getElementById("myBar1");
-  var elem2 = document.getElementById("myBar2");
-  var width1 = 1;
-  var width2 = 1;
-  var id1 = setInterval(frame1, 50);
-  var id2 = setInterval(frame2, 50);
-
-  function frame1() {
-    if (width1 >= 69) {
-      clearInterval(id);
-    } else {
-      width1++; 
-      elem1.style.width = width1 + '%';
-    }
-    }
-  function frame2() {
-    if (width2 >= 100) {
-      clearInterval(id);
-    } else {
-      width2++; 
-      elem2.style.width = width2 + '%'; 
-    }
-    }
-  
-}
-
-// Start the animation
-move();
-</script>
+<iframe src="progress-bars.html" width="100%" height="100%" style="border:none;"></iframe>
