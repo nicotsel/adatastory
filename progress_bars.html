@@ -1,3 +1,11 @@
+<!-- receiving.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Receiving Page</title>
+</head>
+<body>
 
 <!-- Progress Bars -->
 <div class="progress-container" style="margin-bottom: 10px;">
@@ -7,46 +15,105 @@
   <div class="progress-bar" id="myBar2" style="width: 1%; height: 15px; background-color: #2196F3; border-radius: 50px;"></div>
 </div>
 
+<div id="countryInfo">Country info will be displayed here.</div>
+
 <!-- Inline CSS -->
 <style>
-.progress-container {
-width: 100%;
-background-color: #ddd;
-border-radius: 50px; /* Curvature on the container */
-margin-bottom: 50px; /* Space between bars */
-}
-</style>
-
-<!-- JavaScript -->
-<script>
-function move(perc1, perc2) {
-var elem1 = document.getElementById("myBar1");
-var elem2 = document.getElementById("myBar2");
-var width1 = 1;
-var width2 = 1;
-var id1 = setInterval(frame1, 50);
-var id2 = setInterval(frame2, 50);
-
-function frame1() {
-  if (width1 >=perc1) {
-    clearInterval(id);
-  } else {
-    width1++; 
-    elem1.style.width = width1 + '%';
+  .progress-container {
+  width: 100%;
+  background-color: #ddd;
+  border-radius: 50px; /* Curvature on the container */
+  margin-bottom: 50px; /* Space between bars */
   }
-  }
-  function frame2() {
-    if (width2 >= perc2) {
-      clearInterval(id);
-    } else {
-      width2++; 
-      elem2.style.width = width2 + '%'; 
-    }
-    }
+  </style>
   
-}
+  <!-- JavaScript -->
+  <script type="text/javascript">
+    function displayProgress(countryCode) {
+      var countryData = {
+      'AUT': { literacyRate: 98, otherRate: 80 }, // Austria
+      'BEL': { literacyRate: 99, otherRate: 82 }, // Belgium
+      'BGR': { literacyRate: 95, otherRate: 77 }, // Bulgaria
+      'HRV': { literacyRate: 99, otherRate: 81 }, // Croatia
+      'CYP': { literacyRate: 97, otherRate: 85 }, // Cyprus
+      'CZE': { literacyRate: 99, otherRate: 87 }, // Czech Republic
+      'DNK': { literacyRate: 99, otherRate: 88 }, // Denmark
+      'EST': { literacyRate: 99, otherRate: 89 }, // Estonia
+      'FIN': { literacyRate: 100, otherRate: 91 }, // Finland
+      'FRA': { literacyRate: 99, otherRate: 83 }, // France
+      'DEU': { literacyRate: 99, otherRate: 85 }, // Germany
+      'GRC': { literacyRate: 97, otherRate: 79 }, // Greece
+      'HUN': { literacyRate: 99, otherRate: 82 }, // Hungary
+      'IRL': { literacyRate: 99, otherRate: 84 }, // Ireland
+      'ITA': { literacyRate: 99, otherRate: 77 }, // Italy
+      'LVA': { literacyRate: 99, otherRate: 86 }, // Latvia
+      'LTU': { literacyRate: 100, otherRate: 88 }, // Lithuania
+      'LUX': { literacyRate: 100, otherRate: 90 }, // Luxembourg
+      'MLT': { literacyRate: 92, otherRate: 80 }, // Malta
+      'NLD': { literacyRate: 99, otherRate: 87 }, // Netherlands
+      'POL': { literacyRate: 99, otherRate: 84 }, // Poland
+      'PRT': { literacyRate: 95, otherRate: 78 }, // Portugal
+      'ROU': { literacyRate: 98, otherRate: 80 }, // Romania
+      'SVK': { literacyRate: 99, otherRate: 85 }, // Slovakia
+      'SVN': { literacyRate: 99, otherRate: 86 }, // Slovenia
+      'ESP': { literacyRate: 98, otherRate: 80 }, // Spain
+      'SWE': { literacyRate: 99, otherRate: 89 }  // Sweden
+  };
+    var dataForCountry = countryData[countryCode];
+    var perc1 = dataForCountry.literacyRate;
+    var perc2 = dataForCountry.otherRate;
+      function move(perc1, perc2) {
+      var elem1 = document.getElementById("myBar1");
+      var elem2 = document.getElementById("myBar2");
+      var width1 = 1;
+      var width2 = 1;
+      var id1 = setInterval(frame1, 50);
+      var id2 = setInterval(frame2, 50);
+  
+      function frame1() {
+        if (width1 >=perc1) {
+          clearInterval(id);
+        } else {
+          width1++; 
+          elem1.style.width = width1 + '%';
+        }
+        }
+      function frame2() {
+        if (width2 >= perc2) {
+          clearInterval(id);
+        } else {
+          width2++; 
+          elem2.style.width = width2 + '%'; 
+        }
+        }
+    
+  }
+  move(dataForCountry.literacyRate, dataForCountry.otherRate);
+  }
+  
 
+  
+    // Function to handle messages from the source document
+    window.addEventListener('message', function(event) {
+        // Check the origin of the message for security purposes
+        if (event.origin !== window.location.origin) {
+            return;
+        }
 
-// Start the animation
-move(69, 100);
+        // Check if the message is of the type 'countryClick'
+        if (event.data && event.data.type === 'countryClick') {
+            var countryName = event.data.countryName;
+            console.log('Clicked country code:', countryName);
+            if (countryName) {
+              displayProgress(countryName);
+            }
+            document.getElementById('countryInfo').textContent = 'Information for: ' + countryName;
+        }
+    }, false);
 </script>
+
+</body>
+</html>
+
+
+
