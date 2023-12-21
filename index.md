@@ -88,11 +88,11 @@ Finally, we will look at the data representing Self-Actualization :
 ## Test progress bars animation
 
 <!-- Progress Bars -->
-<div class="progress-container">
-    <div class="progress-bar" id="myBar1" style="width: 1%; height: 30px; background-color: #4CAF50;"></div>
+<div class="progress-container" style="margin-bottom: 10px;">
+    <div class="progress-bar" id="myBar1" style="width: 1%; height: 30px; background-color: #4CAF50; border-radius: 5px;"></div>
 </div>
 <div class="progress-container">
-    <div class="progress-bar" id="myBar2" style="width: 1%; height: 30px; background-color: #2196F3;"></div>
+    <div class="progress-bar" id="myBar2" style="width: 1%; height: 30px; background-color: #2196F3; border-radius: 5px;"></div>
 </div>
 
 <!-- Inline CSS -->
