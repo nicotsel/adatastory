@@ -84,3 +84,48 @@ Finally, we will look at the data representing Self-Actualization :
 ## Test Plots using plotly 
 
 <iframe src="eu_map.html" width="100%" height="600" style="border:none;"></iframe>
+
+## Test bars animation
+
+# My Page Title
+
+## Animated Progress Bars
+
+<!-- Progress Bars -->
+<div class="progress-container">
+    <div class="progress-bar" id="myBar1" style="width: 1%; height: 30px; background-color: #4CAF50;"></div>
+</div>
+<div class="progress-container">
+    <div class="progress-bar" id="myBar2" style="width: 1%; height: 30px; background-color: #2196F3;"></div>
+</div>
+
+<!-- Inline CSS -->
+<style>
+.progress-container {
+  width: 100%;
+  background-color: #ddd;
+}
+</style>
+
+<!-- JavaScript -->
+<script>
+function move() {
+  var elem1 = document.getElementById("myBar1");
+  var elem2 = document.getElementById("myBar2");
+  var width = 1;
+  var id = setInterval(frame, 20);
+
+  function frame() {
+    if (width >= 100) {
+      clearInterval(id);
+    } else {
+      width++; 
+      elem1.style.width = width + '%';
+      elem2.style.width = width + '%'; 
+    }
+  }
+}
+
+// Start the animation
+move();
+</script>
