@@ -120,6 +120,10 @@ Finally, we will look at the data representing Self-Actualization :
 </script>
 
 # Revealed
+Summin the different Differences in Differences coefficients and sorting them in ascending order yields the following barplot. These coefficients are comparable for the following reasons:
+- Same metric across all data (percentages)
+- Similar treatment, in this case lockdown
+- Same treatment and control testing periods
 ![Final_plt](assets/img/result.png)
 
 ![Maslow New](assets/img/maslownew.png)
