@@ -98,7 +98,7 @@ Finally, we will look at the data representing Self-Actualization :
 
 ## Test Plots using plotly & Progress bars
 
-<iframe src="countries.html" width="100%" height="600" style="border:none;"></iframe>
+<iframe src="countries.html" width="100%" height="1400" style="border:none;"></iframe>
 
 # Revealed
 Summin the different Differences in Differences coefficients and sorting them in ascending order yields the following barplot. These coefficients are comparable for the following reasons:
