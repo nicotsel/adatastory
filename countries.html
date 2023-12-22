@@ -7,6 +7,22 @@
 </head>
 <body>
 
+  
+<!-- Inline CSS -->
+<style>
+    .responsive-iframe {
+        width: 100%;
+        height: 1000px;
+        border: none;
+    }
+    .progress-container {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 50px; /* Curvature on the container */
+    margin-bottom: 50px; /* Space between bars */
+    }
+</style>
+
 <div id="myDiv" style="width: 2000px;height:1000px;"></div> <!-- Plotly map will be here -->
 <div id="countryName"></div> <!-- Country name will be displayed here -->
 
@@ -19,16 +35,7 @@
     <div class="progress-bar" id="myBar2" style="width: 1%; height: 15px; background-color: #2196F3; border-radius: 50px;"></div>
   </div>
   
-  
-  <!-- Inline CSS -->
-  <style>
-    .progress-container {
-    width: 100%;
-    background-color: #ddd;
-    border-radius: 50px; /* Curvature on the container */
-    margin-bottom: 50px; /* Space between bars */
-    }
-    </style>
+
   
 
 <script src="functions.js"></script>
