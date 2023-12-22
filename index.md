@@ -50,7 +50,7 @@ Given these results, the next natural step is to generalize to an EU-wide scale,
 
 Using least squares over this data to estimate the coefficients of unemployment rate change that the lockdown-country interaction brings yield the following results:
 
-![LS](assets/img/ls.png)
+![LS](assets/img/ls_t.png)
 
 
 This analysis shows that some countries, like Iceland, had a thriving employment situation during lockdown whilst other countries, such as Spain, were struggling with employment levels.
