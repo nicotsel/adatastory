@@ -98,26 +98,7 @@ Finally, we will look at the data representing Self-Actualization :
 
 ## Test Plots using plotly & Progress bars
 
-<iframe src="eu_map.html" width="100%" height="600" style="border:none;"></iframe>
-
-<iframe src="progress_bars.html" width="100%" height="600" style="border:none;"></iframe>>
-
-<script>
-    // Listen for messages from the iframes
-    window.addEventListener('message', function(event) {
-        // Check the origin of the message for security purposes
-        if (event.origin !== window.location.origin) {
-            return;
-        }
-
-        // Check if the message is of the type 'countryClick'
-        if (event.data && event.data.type === 'countryClick') {
-            var countryInfoFrame = document.getElementById('infoFrame');
-            // Post the message to the receiving iframe
-            countryInfoFrame.contentWindow.postMessage(event.data, '*'); // Replace '*' with your domain
-        }
-    }, false);
-</script>
+<iframe src="countries.html" class="responsive-iframe"></iframe>
 
 # Revealed
 Summin the different Differences in Differences coefficients and sorting them in ascending order yields the following barplot. These coefficients are comparable for the following reasons:
@@ -130,6 +111,7 @@ Summin the different Differences in Differences coefficients and sorting them in
 
 ![Maslow New](assets/img/maslownew.png)
 
-<video width="320" height="240" controls>
-  <source src="Desktop/2023/adatastory/assets/img/NewMaslow.mp4" type="video/mp4">
-</video>
+Video
+
+<iframe width="560" height="315" src="https://youtu.be/tFMfmEIIHtE" frameborder="0" allowfullscreen></iframe>
+
