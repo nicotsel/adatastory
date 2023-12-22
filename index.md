@@ -60,8 +60,7 @@ Using least squares over this data to estimate the coefficients of unemployment 
 This analysis shows that some countries, like Iceland, had a thriving employment situation during lockdown whilst other countries, such as Spain, were struggling with employment levels.
 However, it has one main fallacy: it does not take seasonality into account. A fallacy that **Difference in Differences** solves.
 Using the aforementioned method, the following coefficients are obtained:
-
-
+![DID_unemp](assets/img/did_unemployment.png)
 ## Love and Belonging
 
 When it comes to the top three levels of Maslow's Hierarchy, the analysis will be based on wikipedia pageviews, collected on a monthly basis between 2019-01 and 2020-08 : a period that allows us to capture the impact of different Covid-19 measures, such as lockdowns.
