@@ -120,4 +120,6 @@ Finally, we will look at the data representing Self-Actualization :
 </script>
 
 # Revealed
+![Final_plt](assets/img/results.png)
+
 ![Maslow New](assets/img/maslownew.png)
