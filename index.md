@@ -114,3 +114,6 @@ Summin the different Differences in Differences coefficients and sorting them in
 <video width="320" height="240" controls>
   <source src="Desktop/2023/adatastory/assets/img/NewMaslow.mp4" type="video/mp4">
 </video>
+Video - Shifting Pyramid
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tFMfmEIIHtE?si=gSMYTtHGwF6r4DX2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
