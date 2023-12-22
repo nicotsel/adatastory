@@ -129,3 +129,7 @@ Summin the different Differences in Differences coefficients and sorting them in
 ![Final_plt](assets/img/result.png)
 
 ![Maslow New](assets/img/maslownew.png)
+
+<video width="320" height="240" controls>
+  <source src="Desktop/2023/adatastory/assets/img/NewMaslow.mp4" type="video/mp4">
+</video>

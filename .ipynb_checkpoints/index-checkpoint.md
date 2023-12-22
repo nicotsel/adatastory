@@ -31,6 +31,10 @@ By comparing the percent change in visits to grocery stores and pharmacies with 
 ![DID_Physiological](assets/img/DID_Phys3.png)
 The bar chart indicates that based on Google Trends data, there was generally a smaller reduction—or in some cases, an increase—in the public's interest in grocery stores and pharmacies compared to shopping malls during the pandemic. This suggests that essential needs, such as those for food and healthcare, maintained a consistent level of importance as reflected by online search behaviors.
 
+Averaging all the coefficients together, we can determine how much more dominant physiological needs were during the pandemic.The bar plot below displays the overall fluctuation in grocery shopping, pharmacy and overall physiological needs.
+
+![DID_Physiological_fin](assets/img/physio_final.png)
+
 
 ## Safety
 EU Unemployment Data revealed a few things about how financial safety's place evolved during the pandemic. Preliminary studies on the overall number of inactive people show how the inactive European population was distributed amongst different groups: the number of inactive men  grew after the lockdown with respect to women, as did the number of unemployed 'young' people (under 25) with respect to 'older ' people (between the ages of 25 and 74). The pie charts help us visualize the results: labels Y_LT25 and Y25-74 respectively represent the younger and older population, as for the M and F labels, they represent male and female individuals. 
@@ -39,23 +43,26 @@ EU Unemployment Data revealed a few things about how financial safety's place ev
 ![Unemployment_age](assets/img/un_age.png)
 ![Unemployment_sex](assets/img/un_sex.png)
 
-Given these results, the next natural step is to generalize to an EU-wide scale, to understand how relevant safety needs related to employment were during covid times, and the answers lie in the time-series of unemployment rates across EU countries. Naively, plotting, regressing over the data and extracting coefficients should provide the key elements to infer the evolution of safety needs.  For the remainder of this analysis, march 2020 is considered as the lockdown starting point. Identifying data as pre and post lockdown allows us to conduct the study on unemployment data.
+Given these results, the next natural step is to generalize to an EU-wide scale, to understand how relevant safety needs related to employment were during covid times, and the answers lie in the time-series of unemployment rates across EU countries. Naively, plotting, regressing over the data and extracting coefficients should provide the key elements to infer the evolution of safety needs.  For the remainder of this analysis, march 2020 is considered as the lockdown starting point. Identifying data as pre and post-lockdown allows us to conduct the study on unemployment data.
 
 #### Time-Series of Unemployment Rates per European Country
-![C_1](assets/img/country_1.png)
-![C_2](assets/img/country_2.png)
-![C_3](assets/img/country_3.png)
-![C_4](assets/img/country_4.png)
-![C_5](assets/img/country_5.png)
+![C_1](assets/img/c1.png)
+![C_2](assets/img/c2.png)
+![C_3](assets/img/c3.png)
+![C_4](assets/img/c4.png)
+![C_5](assets/img/c5.png)
 
-Using least squares over this data to estimate the coefficients of unemployment rate change that the lockdown-country interaction brings yield the following results:
+Using least squares over this data to estimate the coefficients of unemployment rate change that the lockdown-country interaction brings yields the following results:
 
-![LS](assets/img/ls.png)
+![LS](assets/img/ls_t.png)
 
 
 This analysis shows that some countries, like Iceland, had a thriving employment situation during lockdown whilst other countries, such as Spain, were struggling with employment levels.
-However, it has one main fallacy: it does not take seasonality into account. A fallacy that **Difference in Differences** solves.
+However, it has one main fallacy: it does not consider seasonality. A fallacy that **Difference in Differences** solves.
+Using the aforementioned method, the following coefficients are obtained:
+![DID_unemp](assets/img/did_unemployment.png)
 
+Contrary to the first, naive analysis, the DiD method proves that unemployment rates have skyrocketed during times of COVID, with a few exceptions. The E
 ## Love and Belonging
 
 When it comes to the top three levels of Maslow's Hierarchy, the analysis will be based on wikipedia pageviews, collected on a monthly basis between 2019-01 and 2020-08 : a period that allows us to capture the impact of different Covid-19 measures, such as lockdowns.
@@ -111,3 +118,18 @@ Finally, we will look at the data representing Self-Actualization :
         }
     }, false);
 </script>
+
+# Revealed
+Summin the different Differences in Differences coefficients and sorting them in ascending order yields the following barplot. These coefficients are comparable for the following reasons:
+- Same metric across all data (percentages)
+- Similar treatment, in this case lockdown
+- Same treatment and control testing periods
+
+  
+![Final_plt](assets/img/result.png)
+
+![Maslow New](assets/img/maslownew.png)
+
+<video width="320" height="240" controls>
+  <source src="Desktop/2023/adatastory/assets/img/NewMaslow.mp4" type="video/mp4">
+</video>
