@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Interactive Map</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+
+<div id="myDiv" style="width: 2000px;height:1000px;"></div> <!-- Plotly map will be here -->
+<div id="countryName"></div> <!-- Country name will be displayed here -->
+
+
+<!-- Progress Bars -->
+<div class="progress-container" style="margin-bottom: 10px; width: 1000px">
+    <div class="progress-bar" id="myBar1" style="width: 1%; height: 15px; background-color: #4CAF50; border-radius: 50px;"></div>
+  </div>
+  <div class="progress-container" style="margin-top: 10px; width: 1000px">
+    <div class="progress-bar" id="myBar2" style="width: 1%; height: 15px; background-color: #2196F3; border-radius: 50px;"></div>
+  </div>
+  
+  
+  <!-- Inline CSS -->
+  <style>
+    .progress-container {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 50px; /* Curvature on the container */
+    margin-bottom: 50px; /* Space between bars */
+    }
+    </style>
+  
+
+<script src="functions.js"></script>
+
+
+</body>
+</html>

@@ -96,26 +96,7 @@ Finally, we will look at the data representing Self-Actualization :
 
 ## Test Plots using plotly & Progress bars
 
-<iframe src="eu_map.html" width="100%" height="600" style="border:none;"></iframe>
-
-<iframe src="progress_bars.html" width="100%" height="600" style="border:none;"></iframe>>
-
-<script>
-    // Listen for messages from the iframes
-    window.addEventListener('message', function(event) {
-        // Check the origin of the message for security purposes
-        if (event.origin !== window.location.origin) {
-            return;
-        }
-
-        // Check if the message is of the type 'countryClick'
-        if (event.data && event.data.type === 'countryClick') {
-            var countryInfoFrame = document.getElementById('infoFrame');
-            // Post the message to the receiving iframe
-            countryInfoFrame.contentWindow.postMessage(event.data, '*'); // Replace '*' with your domain
-        }
-    }, false);
-</script>
+<iframe src="countries.html" width="100%" height="600" style="border:none;"></iframe>
 
 # Revealed
 ![Maslow New](assets/img/maslownew.png)
