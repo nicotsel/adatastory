@@ -115,3 +115,6 @@ Finally, we will look at the data representing Self-Actualization :
         }
     }, false);
 </script>
+
+# Revealed
+![Maslow New](assets/img/maslow new.png)
