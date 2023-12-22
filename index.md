@@ -124,6 +124,8 @@ Summin the different Differences in Differences coefficients and sorting them in
 - Same metric across all data (percentages)
 - Similar treatment, in this case lockdown
 - Same treatment and control testing periods
+
+  
 ![Final_plt](assets/img/result.png)
 
 ![Maslow New](assets/img/maslownew.png)
